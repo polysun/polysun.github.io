@@ -64,13 +64,45 @@ document.querySelectorAll('[data-life-photo]').forEach((photo) => {
   photo.addEventListener('pointerup', () => photo.blur());
 });
 
+function upgradeProgressiveImage(image) {
+  if (!image || image.dataset.upgraded === 'true') return;
+  image.dataset.upgraded = 'true';
+  if (image.dataset.srcset) {
+    const candidates = image.dataset.srcset.split(',').map((candidate) => {
+      const match = candidate.trim().match(/^(.*)\s+(\d+)w$/);
+      return match ? { src: match[1], width: Number(match[2]) } : null;
+    }).filter(Boolean).sort((a, b) => a.width - b.width);
+    const renderedWidth = image.getBoundingClientRect().width || window.innerWidth;
+    const targetWidth = renderedWidth * Math.min(window.devicePixelRatio || 1, 2);
+    const selected = candidates.find((candidate) => candidate.width >= targetWidth) ?? candidates.at(-1);
+    if (selected) image.src = selected.src;
+  } else if (image.dataset.src) {
+    image.src = image.dataset.src;
+  }
+}
+
+const progressiveImages = [...document.querySelectorAll('[data-progressive-image]:not(.progressive-on-demand)')];
+if ('IntersectionObserver' in window) {
+  const imageObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      upgradeProgressiveImage(entry.target);
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: '500px 0px' });
+  progressiveImages.forEach((image) => imageObserver.observe(image));
+} else {
+  progressiveImages.forEach(upgradeProgressiveImage);
+}
+
 const portraitToggle = document.querySelector('[data-portrait-toggle]');
 portraitToggle?.addEventListener('click', () => {
+  upgradeProgressiveImage(portraitToggle.querySelector('.portrait-alternate'));
   const showAlternate = portraitToggle.classList.toggle('is-alternate');
   portraitToggle.setAttribute('aria-pressed', String(showAlternate));
   portraitToggle.setAttribute('aria-label', showAlternate
     ? 'Return to Poly Sun\'s formal portrait'
-    : 'Show Poly Sun\'s after-hours supporter card');
+    : 'Show Poly Sun\'s supporter card');
 });
 portraitToggle?.addEventListener('pointerup', () => portraitToggle.blur());
 
@@ -102,7 +134,7 @@ function publicationCategory(publication) {
 function publicationMarkup(publication) {
   const title = escapeHTML(publication.title);
   const titleMarkup = publication.href
-    ? `<a href="${escapeHTML(publication.href)}" target="_blank" rel="noreferrer">${title} ↗</a>`
+    ? `<a href="${escapeHTML(publication.href)}" target="_blank" rel="noreferrer">${title}</a>`
     : title;
   return `<li class="publication-item">
     <div class="publication-content"><h3>${titleMarkup}</h3><p>${escapeHTML(publication.authors)}</p><p>${escapeHTML(publication.venue)}</p></div>
