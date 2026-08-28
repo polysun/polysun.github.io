@@ -51,19 +51,27 @@ const revealObserver = new IntersectionObserver((entries, observer) => {
   });
 }, { rootMargin: '0px 0px -8% 0px', threshold: .08 });
 
-document.querySelectorAll('.research-themes article, .work-feature, .updates li, .service-grid article').forEach((item) => {
+document.querySelectorAll('.personal-notes, .life-photo, .research-themes article, .selected-paper, .service-grid article').forEach((item) => {
   item.classList.add('reveal');
   revealObserver.observe(item);
 });
 
+document.querySelectorAll('[data-life-photo]').forEach((photo) => {
+  photo.addEventListener('click', () => {
+    const isLit = photo.classList.toggle('is-lit');
+    photo.setAttribute('aria-pressed', String(isLit));
+  });
+  photo.addEventListener('pointerup', () => photo.blur());
+});
+
 const searchInput = document.querySelector('#publication-search');
-const filterButtons = [...document.querySelectorAll('[data-filter]')];
+const filterInputs = [...document.querySelectorAll('input[data-filter]')];
 const publicationList = document.querySelector('[data-publication-list]');
 const publicationStatus = document.querySelector('[data-publication-status]');
 const showMore = document.querySelector('[data-show-more]');
 
 let publications = [];
-let activeFilter = 'all';
+const activeFilters = new Set();
 let expanded = false;
 const initialLimit = 14;
 
@@ -81,13 +89,12 @@ function publicationCategory(publication) {
   return 'systems';
 }
 
-function publicationMarkup(publication, index) {
+function publicationMarkup(publication) {
   const title = escapeHTML(publication.title);
   const titleMarkup = publication.href
     ? `<a href="${escapeHTML(publication.href)}" target="_blank" rel="noreferrer">${title} ↗</a>`
     : title;
   return `<li class="publication-item">
-    <span class="publication-index">${String(index + 1).padStart(2, '0')}</span>
     <div class="publication-content"><h3>${titleMarkup}</h3><p>${escapeHTML(publication.authors)}</p><p>${escapeHTML(publication.venue)}</p></div>
     <span class="publication-year">${publication.year || '—'}</span>
   </li>`;
@@ -97,14 +104,14 @@ function renderPublications() {
   if (!publicationList || !publicationStatus || !showMore) return;
   const query = searchInput?.value.trim().toLowerCase() ?? '';
   const filtered = publications.filter((publication) => {
-    const matchesFilter = activeFilter === 'all' || publicationCategory(publication) === activeFilter;
+    const matchesFilter = activeFilters.size === 0 || activeFilters.has(publicationCategory(publication));
     const searchable = `${publication.title} ${publication.authors} ${publication.venue} ${publication.year}`.toLowerCase();
     return matchesFilter && (!query || searchable.includes(query));
   });
-  const visible = expanded || query || activeFilter !== 'all' ? filtered : filtered.slice(0, initialLimit);
+  const visible = expanded || query || activeFilters.size > 0 ? filtered : filtered.slice(0, initialLimit);
   publicationList.innerHTML = visible.map(publicationMarkup).join('');
-  publicationStatus.textContent = `${filtered.length} publication${filtered.length === 1 ? '' : 's'} shown`;
-  showMore.hidden = filtered.length <= initialLimit || Boolean(query) || activeFilter !== 'all';
+  publicationStatus.textContent = `${filtered.length} publication${filtered.length === 1 ? '' : 's'}`;
+  showMore.hidden = filtered.length <= initialLimit || Boolean(query) || activeFilters.size > 0;
   showMore.innerHTML = expanded ? 'Show a shorter list <span>↑</span>' : 'Show all publications <span>↓</span>';
 }
 
@@ -113,10 +120,10 @@ searchInput?.addEventListener('input', () => {
   renderPublications();
 });
 
-filterButtons.forEach((button) => button.addEventListener('click', () => {
-  activeFilter = button.dataset.filter ?? 'all';
+filterInputs.forEach((input) => input.addEventListener('change', () => {
+  if (input.checked) activeFilters.add(input.value);
+  else activeFilters.delete(input.value);
   expanded = false;
-  filterButtons.forEach((item) => item.classList.toggle('is-active', item === button));
   renderPublications();
 }));
 
