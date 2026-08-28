@@ -51,7 +51,7 @@ const revealObserver = new IntersectionObserver((entries, observer) => {
   });
 }, { rootMargin: '0px 0px -8% 0px', threshold: .08 });
 
-document.querySelectorAll('.personal-notes, .life-photo, .research-themes article, .selected-paper, .service-grid article').forEach((item) => {
+document.querySelectorAll('.personal-notes, .life-photo, .research-themes article, .selected-paper').forEach((item) => {
   item.classList.add('reveal');
   revealObserver.observe(item);
 });

@@ -79,9 +79,14 @@ const cleaned = [...additions, ...publications]
         .replace(/\s+([,.;:])/g, '$1'),
       venue: cleanText(publication.venue)
         .replace(/^In:\s*/i, '')
+        .replace(/,?\s*Early Access\s*,?/gi, ', ')
+        .replace(/,\s*,/g, ',')
+        .replace(/\s+([,.;:])/g, '$1')
+        .replace(/\s{2,}/g, ' ')
         .replace('(J III)', '(JIII)')
         .replace('(IEEE T ASE)', '(IEEE T-ASE)')
-        .replace('(IEEE J BHI)', '(IEEE JBHI)'),
+        .replace('(IEEE J BHI)', '(IEEE JBHI)')
+        .trim(),
       year: Number(publication.year),
       href: manualLinks.get(key) ?? doiByTitle.get(key) ?? publication.href ?? null,
       key

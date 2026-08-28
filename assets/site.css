@@ -141,13 +141,6 @@ img { display: block; max-width: 100%; }
 .show-more { background: var(--ink); border: 0; color: var(--white); cursor: pointer; font-size: .74rem; font-weight: 850; letter-spacing: .07em; margin-top: 1.5rem; padding: 1rem 1.1rem; text-align: left; text-transform: uppercase; width: 100%; }
 .show-more span { color: var(--red); float: right; font-size: 1.1rem; }
 
-.service-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); padding-top: clamp(3rem, 6vw, 6rem); }
-.service-grid article { background: var(--paper-deep); min-height: 22rem; padding: clamp(1.2rem, 2.2vw, 2.2rem); }
-.service-grid article > span { color: var(--red); font-size: .7rem; font-weight: 850; letter-spacing: .09em; text-transform: uppercase; }
-.service-grid h3 { font-family: var(--display); font-size: clamp(2rem, 3vw, 3.8rem); font-weight: 820; letter-spacing: -.06em; line-height: .94; margin: 4rem 0 2rem; text-transform: uppercase; }
-.service-grid ul { color: var(--muted); line-height: 1.45; list-style: none; margin: 0; padding: 0; }
-.service-grid li { border-top: 1px solid var(--rule); padding: .75rem 0; }
-
 .contact { background: var(--red); color: var(--white); display: grid; gap: clamp(3rem, 8vw, 9rem); grid-template-columns: 1.4fr .6fr; padding: clamp(4rem, 7vw, 7rem) var(--pad) 2rem; }
 .contact-main > p { font-size: .72rem; font-weight: 850; letter-spacing: .09em; margin: 0 0 4rem; text-transform: uppercase; }
 .contact h2 { font-family: var(--display); font-size: clamp(4rem, 8.2vw, 10rem); font-weight: 850; letter-spacing: -.075em; line-height: .8; margin: 0; text-transform: uppercase; }
@@ -192,7 +185,6 @@ img { display: block; max-width: 100%; }
   .research-themes { grid-template-columns: 1fr; }
   .research-themes article { min-height: 18rem; }
   .research-themes h3 { margin-top: auto; }
-  .service-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 760px) {
@@ -222,7 +214,7 @@ img { display: block; max-width: 100%; }
   .life-gallery .life-photo-city { grid-column: 1 / -1; height: 13rem; }
   .life-gallery .life-photo:not(.life-photo-captain, .life-photo-cat, .life-photo-city, .life-photo-wide) { grid-column: span 1; height: 11rem; }
   .life-gallery .life-photo-wide { grid-column: 1 / -1; height: 11rem; }
-  .work-list, .service-grid { grid-template-columns: 1fr; }
+  .work-list { grid-template-columns: 1fr; }
   .selected-paper { min-height: 18rem; }
   .publication-controls { align-items: stretch; gap: 2rem; grid-template-columns: 1fr; }
   .publication-item { gap: 1rem; grid-template-columns: minmax(0, 1fr) 3.5rem; }
