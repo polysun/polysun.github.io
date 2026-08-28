@@ -15,8 +15,8 @@
   <meta name="twitter:description" content="Designing intelligence around the person.">
   <meta name="twitter:image" content="https://polysun.github.io/Poly%20Z.H.%20Sun_files/social-preview.png">
   <title>Poly Z.H. Sun — Personal Informatics & Human-Centered AI</title>
-  <link rel="stylesheet" href="assets/site.css?v=4">
-  <script src="assets/site.js?v=4" type="module"></script>
+  <link rel="stylesheet" href="assets/site.css?v=5">
+  <script src="assets/site.js?v=5" type="module"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -49,7 +49,11 @@
       </div>
       <div class="hero-profile">
         <figure>
-          <img src="Poly Z.H. Sun_files/poly-sun-portrait.jfif" alt="Portrait of Dr. Poly Z.H. Sun" draggable="false">
+          <button class="portrait-toggle" type="button" data-portrait-toggle aria-pressed="false" aria-label="Show Poly Sun's after-hours supporter card">
+            <img class="portrait-primary" src="Poly Z.H. Sun_files/poly-sun-portrait.jfif" alt="Portrait of Dr. Poly Z.H. Sun" draggable="false">
+            <img class="portrait-alternate" src="Poly Z.H. Sun_files/poly-sun-supporter-card.jpg" alt="" aria-hidden="true" draggable="false">
+            <span aria-hidden="true">Portrait / after hours</span>
+          </button>
           <figcaption>
             <span>Shanghai</span>
             <a href="https://faculty.ecnu.edu.cn/_s9/szh2_en/main.psp" target="_blank" rel="noreferrer">ECNU faculty page ↗</a>
@@ -67,34 +71,39 @@
           <p>I am an Associate Professor in the School of Psychology and Cognitive Science at East China Normal University and Director of the <a href="https://pis-lab.github.io/" target="_blank" rel="noreferrer">Personal Informatics System Lab</a>. I received my Ph.D. in Industrial Engineering from Shanghai Jiao Tong University.</p>
         </div>
       </div>
-      <div class="personal-notes">
-        <p class="personal-kicker">Beyond the lab</p>
-        <div class="personal-notes-copy">
-          <h3>I play, collect, travel, and talk ideas through.</h3>
-          <p>Research occupies most of my week, but not all of it. I make time for turn-based strategy, creature-collecting, open-ended exploration, platform and party games, as well as collectible card games. I enjoy systems that reveal themselves gradually—rules learned by doing, small choices that become stories, and people learning from one another.</p>
-          <p>I also enjoy making podcasts and hosting live streams outside work. Speaking to an audience is a different kind of interaction: ideas have to become clearer, questions arrive from unexpected directions, and conversation develops in real time.</p>
-          <p>Travel, photography, and time near the sea help me slow down and notice things again. These interests are not research assignments, but they do return to the work—in how I think about play, feedback, participation, curiosity, and the many ways people make a system their own.</p>
+      <div class="personal-life">
+        <article class="personal-notes">
+          <img src="Poly Z.H. Sun_files/life-cable-car.jpg" alt="A red cable car travelling above water beside a mountain" loading="lazy" draggable="false">
+          <div class="personal-notes-copy">
+            <p class="personal-kicker">Beyond the lab</p>
+            <h3>I play, collect, travel, and talk ideas through.</h3>
+            <p>Research occupies most of my week, but not all of it. I make time for turn-based strategy, creature-collecting, open-ended exploration, platform and party games, and collectible card games. I also make podcasts and host live streams—places where ideas become conversations in real time.</p>
+            <p>Travel, photography, and time near the sea help me slow down and notice things again. They return to the work in how I think about play, feedback, participation, curiosity, and the many ways people make a system their own.</p>
+          </div>
+        </article>
+        <div class="life-gallery" aria-label="Interests, travel, and personal photography">
+          <button class="life-photo life-photo-captain" type="button" data-life-photo aria-pressed="false">
+            <img src="Poly Z.H. Sun_files/captain-travel.jpg" alt="A small yellow captain companion travelling on a plane" loading="lazy" draggable="false">
+            <span><strong>Play / collect</strong><small>Always in transit</small></span>
+          </button>
+          <button class="life-photo" type="button" data-life-photo aria-pressed="false">
+            <img src="Poly Z.H. Sun_files/life-city-captain.jpg" alt="A playful captain character appearing in a Shanghai streetscape" loading="lazy" draggable="false">
+            <span><strong>Chance encounter</strong><small>In the city</small></span>
+          </button>
+          <button class="life-photo" type="button" data-life-photo aria-pressed="false">
+            <img src="Poly Z.H. Sun_files/life-aquarium-ray.jpg" alt="A ray moving across a blue-green aquarium floor" loading="lazy" draggable="false">
+            <span><strong>Curiosity</strong><small>Underwater</small></span>
+          </button>
+          <button class="life-photo" type="button" data-life-photo aria-pressed="false">
+            <img src="Poly Z.H. Sun_files/life-lakeside-bike.jpg" alt="A bicycle beside a lake and city skyline at night" loading="lazy" draggable="false">
+            <span><strong>Keep moving</strong><small>Evening ride</small></span>
+          </button>
+          <button class="life-photo" type="button" data-life-photo aria-pressed="false">
+            <img src="Poly Z.H. Sun_files/life-cat.jpg" alt="A blue-eyed cat resting beneath a patterned umbrella" loading="lazy" draggable="false">
+            <span><strong>Quiet company</strong><small>Between projects</small></span>
+          </button>
         </div>
       </div>
-      <div class="life-gallery" aria-label="Travel and personal photography">
-        <button class="life-photo life-photo-wide" type="button" data-life-photo aria-pressed="false">
-          <img src="Poly Z.H. Sun_files/travel-overlook.jpg" alt="A travel overlook above a city and river" loading="lazy" draggable="false">
-          <span>On the way</span>
-        </button>
-        <button class="life-photo" type="button" data-life-photo aria-pressed="false">
-          <img src="Poly Z.H. Sun_files/travel-mountain.jpg" alt="A quiet mountain view during a journey" loading="lazy" draggable="false">
-          <span>Room to look</span>
-        </button>
-        <button class="life-photo" type="button" data-life-photo aria-pressed="false">
-          <img src="Poly Z.H. Sun_files/photo-suzhou.jpg" alt="Warm evening light through trees beside a Suzhou canal" loading="lazy" draggable="false">
-          <span>Evening light</span>
-        </button>
-        <button class="life-photo life-photo-wide" type="button" data-life-photo aria-pressed="false">
-          <img src="Poly Z.H. Sun_files/photo-beach.jpg" alt="A rocky beach beneath an overcast sky" loading="lazy" draggable="false">
-          <span>Back to the sea</span>
-        </button>
-      </div>
-      <p class="gallery-note">A few places I stopped long enough to notice. Tap a photograph to bring its colour forward.</p>
     </section>
 
     <section class="research section section-dark" id="research" aria-labelledby="research-title">
@@ -132,11 +141,7 @@
     </section>
 
     <section class="selected-work section" id="work" aria-labelledby="work-title">
-      <div class="section-label">Selected work</div>
-      <div class="work-heading">
-        <h2 id="work-title">Selected<br><span>publications.</span></h2>
-        <p>Four recent papers across interaction methodology, cognition, human–machine systems, and personalized healthcare.</p>
-      </div>
+      <h2 class="section-label" id="work-title">Selected work</h2>
       <div class="work-list">
         <article class="selected-paper">
           <p>Cognitive collaboration</p>
@@ -162,20 +167,19 @@
     </section>
 
     <section class="publications section section-blue" id="publications" aria-labelledby="publications-title">
-      <div class="section-label">Publications</div>
-      <div class="publications-heading">
-        <div><h2 id="publications-title">Find a<br><span>publication.</span></h2><p>Search by title, author, venue, topic, or year, then combine topic filters as needed.</p></div>
-        <div class="publication-controls">
-          <label for="publication-search">Search publications</label>
-          <input id="publication-search" type="search" placeholder="Try “cognition”, “2026”, or “vehicle”" autocomplete="off">
-          <fieldset class="filter-checks">
-            <legend>Filter by topic</legend>
-            <label><input type="checkbox" value="human" data-filter> Human states</label>
-            <label><input type="checkbox" value="interaction" data-filter> Interaction</label>
-            <label><input type="checkbox" value="mobility" data-filter> Mobility</label>
-            <label><input type="checkbox" value="systems" data-filter> Intelligent systems</label>
-          </fieldset>
+      <h2 class="section-label" id="publications-title">Publications</h2>
+      <div class="publication-controls">
+        <div class="publication-search-control">
+          <label for="publication-search">Search</label>
+          <input id="publication-search" type="search" placeholder="Title, author, journal, topic, or year" autocomplete="off">
         </div>
+        <fieldset class="filter-checks">
+          <legend>Filter by topic</legend>
+          <label><input type="checkbox" value="human" data-filter> Human states</label>
+          <label><input type="checkbox" value="interaction" data-filter> Interaction</label>
+          <label><input type="checkbox" value="mobility" data-filter> Mobility</label>
+          <label><input type="checkbox" value="systems" data-filter> Intelligent systems</label>
+        </fieldset>
       </div>
       <p class="publication-status" data-publication-status aria-live="polite">Loading publication record…</p>
       <ol class="publication-list" data-publication-list></ol>
@@ -183,11 +187,7 @@
     </section>
 
     <section class="projects-service section" id="service" aria-labelledby="service-title">
-      <div class="section-label">Academic service</div>
-      <div class="service-heading">
-        <h2 id="service-title">Roles, relationships,<br><span>and standards.</span></h2>
-        <p>Academic roles connect ongoing research to journals, conferences, and shared technical standards.</p>
-      </div>
+      <h2 class="section-label" id="service-title">Academic service</h2>
       <div class="service-grid">
         <article>
           <span>Academic roles</span>

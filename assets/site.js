@@ -64,6 +64,16 @@ document.querySelectorAll('[data-life-photo]').forEach((photo) => {
   photo.addEventListener('pointerup', () => photo.blur());
 });
 
+const portraitToggle = document.querySelector('[data-portrait-toggle]');
+portraitToggle?.addEventListener('click', () => {
+  const showAlternate = portraitToggle.classList.toggle('is-alternate');
+  portraitToggle.setAttribute('aria-pressed', String(showAlternate));
+  portraitToggle.setAttribute('aria-label', showAlternate
+    ? 'Return to Poly Sun\'s formal portrait'
+    : 'Show Poly Sun\'s after-hours supporter card');
+});
+portraitToggle?.addEventListener('pointerup', () => portraitToggle.blur());
+
 const searchInput = document.querySelector('#publication-search');
 const filterInputs = [...document.querySelectorAll('input[data-filter]')];
 const publicationList = document.querySelector('[data-publication-list]');

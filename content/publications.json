@@ -1,52 +1,87 @@
 [
   {
+    "title": "Budgeted Neuro-Symbolic Decision for Industrial Online Repair Under Expensive Verification",
+    "authors": "Hongwei Jiang, Jiapeng You, Zhiyang Chen, Xinguo Ming, Poly Z.H. Sun.",
+    "venue": "IEEE Transactions on Automation Science and Engineering (IEEE T-ASE), 2026.",
+    "year": 2026,
+    "href": "https://doi.org/10.1109/tase.2026.3728052"
+  },
+  {
+    "title": "Enhancing Resilience of Urban Cold Chain Logistics: A Predict-and-Prescribe Approach",
+    "authors": "Xinyi Fang, Linjun Lu, Poly Z.H. Sun.",
+    "venue": "Transportation Research Part D: Transport and Environment, 2026.",
+    "year": 2026,
+    "href": "https://doi.org/10.1016/j.trd.2026.105469"
+  },
+  {
+    "title": "Multilateral Network Transformation for Transport Mode Selection of Multimodal Transportation",
+    "authors": "Zhiyang Chen, Rob Law, Xin Wang, Poly Z.H. Sun.",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS), 2026.",
+    "year": 2026,
+    "href": "https://doi.org/10.1109/tits.2026.3699814"
+  },
+  {
+    "title": "PCCA: A Hypothesis-Driven Prompt-Conditioned Causal Auditing Framework for Industrial Knowledge Graphs",
+    "authors": "Hongwei Jiang, Jiapeng You, Jiayu Shi, Zhiyang Chen, Huaxing Gou, Xinguo Ming, Poly Z.H. Sun.",
+    "venue": "IEEE Transactions on Industrial Informatics (IEEE T-II), 2026.",
+    "year": 2026,
+    "href": "https://doi.org/10.1109/tii.2026.3689196"
+  },
+  {
+    "title": "Causal Effects of Flooding on Urban Transport Resilience: A Double Machine Learning Approach with Satellite-Derived Flood Maps",
+    "authors": "Zhan Zhang, Bochen Cao, Alima Adalaiti, Shiwen Pan, Jiaohao Xu, Poly Z.H. Sun, Linjun Lu.",
+    "venue": "IEEE Internet of Things Journal (IEEE IoT-J), 2026.",
+    "year": 2026,
+    "href": "https://doi.org/10.1109/jiot.2026.3678954"
+  },
+  {
     "title": "Intelligent Transportation Systems for Evolving Cities: Key Challenges and Research Opportunities",
     "authors": "Xianing Wang, Ying Wang, Linjun Lu, Yue Pan, Jiapeng You, Poly Z.H. Sun.",
     "venue": "IEEE Transactions on Computational Social Systems (TCSS), 2026.",
     "year": 2026,
-    "href": null
+    "href": "https://doi.org/10.1109/tcss.2026.3686913"
   },
   {
     "title": "Enhancing Auditory Brainstem Response Extraction from Noised EEG with Adaptive Kalman Denoising Technique",
     "authors": "Xin Wang, Junyu Ji, Haoshi Zhang, Xiaobei Jing, Xu Yong, Yangjie Xu, Hongguan Pan, Yuan Tao, Mingxing Zhu, Michael Chi Fai Tong, Poly Z.H. Sun, Guanglin Li, Shixiong Chen.",
     "venue": "IEEE Transactions on Human-Machine Systems (THMS), 2026.",
     "year": 2026,
-    "href": "https://doi.org/10.1109/THMS.2026.3681602"
+    "href": "https://doi.org/10.1109/thms.2026.3681602"
   },
   {
     "title": "Sustainable Service Composition on Digital Platforms: An Interactive Approach with Provider Synergies",
     "authors": "Jiapeng You, Hongwei Jiang, Jiahao Xu, Xinguo Ming, Poly Z.H. Sun.",
     "venue": "Journal of Manufacturing Systems (JMS), 2026.",
     "year": 2026,
-    "href": null
+    "href": "https://doi.org/10.1016/j.jmsy.2026.03.010"
   },
   {
     "title": "MMSTG-Net: Multi-scale Spatiotemporal Graph Network with Cross-modal Contrastive Alignment for Multimodal Emotion Recognition",
     "authors": "Jiayu Bi, Linjun Lu, Poly Z.H. Sun.",
     "venue": "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2026.",
     "year": 2026,
-    "href": "https://doi.org/10.1109/JBHI.2026.3667946"
+    "href": "https://doi.org/10.1109/jbhi.2026.3667946"
   },
   {
     "title": "Supporting Collaborative Service Improvement: A Novel Approach for Customer Requirement Classification on Digital Industrial Service Platforms",
     "authors": "Jiapeng You, Huaxing Gou, Hongwei Jiang, Chengjun Wang, Weinan Sha, Jiahao Xu, Xinguo Ming, Poly Z.H. Sun.",
     "venue": "Computers and Industrial Engineering (CAIE), 2026.",
     "year": 2026,
-    "href": null
+    "href": "https://doi.org/10.1016/j.cie.2026.111892"
   },
   {
     "title": "Wayfinding Cognitive Load in Metro Stations: Insights from Multimodal Physiological Monitoring and Data-Driven Analysis",
     "authors": "Zhan Zhang, Bochen Cao, Alima Adalaiti, Shiwen Pan, Jiaohao Xu, Poly Z.H. Sun, Linjun Lu.",
     "venue": "Advanced Engineering Informatics (AEI), 2026.",
     "year": 2026,
-    "href": null
+    "href": "https://doi.org/10.1016/j.aei.2026.104420"
   },
   {
     "title": "Scheduling Intelligent Guided Vehicles for Automated Container Terminals With Lighterage Mode Consideration",
     "authors": "Jiahao Xu, Jiapeng You, Weinan Sha, Chengjun Wang, Luyao Jiang, Xinguo Ming, Poly Z.H. Sun.",
     "venue": "International Journal of Production Research (IJPR), 2026.",
     "year": 2026,
-    "href": null
+    "href": "https://doi.org/10.1080/00207543.2026.2623193"
   },
   {
     "title": "Cognitive Collaboration: A Design Methodology for Future-Oriented Intelligent Industrial Systems",
@@ -60,7 +95,7 @@
     "authors": "Hongwei Jiang, Jiapeng You, Zhiyang Chen, Jiayu Shi, Huaxing Gou, Xinguo Ming, Poly Z.H. Sun.",
     "venue": "IEEE Transactions on Automation Science and Engineering (IEEE T-ASE), 2026.",
     "year": 2026,
-    "href": null
+    "href": "https://doi.org/10.1109/tase.2025.3650172"
   },
   {
     "title": "MentalQLM: A Lightweight Large Language Model for Mental Healthcare Based on Instruction Tuning and Dual LoRA Modules",
@@ -74,377 +109,314 @@
     "authors": "Xinyi Fang, Linjun Lu, Yilin Hong, Poly Z.H. Sun.",
     "venue": "IEEE Internet of Things Journal (IEEE IOT J), 2025.",
     "year": 2025,
-    "href": null
+    "href": "https://doi.org/10.1109/jiot.2025.3587223"
   },
   {
     "title": "Human-Factors-in-Aviation-Loop: Multimodal Deep Learning for Pilot Situation Awareness Analysis Using Gaze Position and Flight Control Data",
     "authors": "Gary J.W. Xu, Sicheng Pan, Poly Z.H. Sun, Kun Guo, Seop Hyeong Park, Fengshuo Yan, Mingyang Gao, Xiaoru Wanyan, Hong Cheng, Edmond Q. Wu.",
     "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2025.",
     "year": 2025,
-    "href": null
+    "href": "https://doi.org/10.1109/tits.2025.3558085"
   },
   {
     "title": "Cross-transportation-mode Knowledge Transfer for Trajectory Recovery with Meta Learning",
     "authors": "Chenxing Wang, Fang Zhao, Haiyong Luo, Poly Z.H. Sun, Yuchen Fang.",
     "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2025.",
     "year": 2025,
-    "href": null
+    "href": "https://doi.org/10.1109/tits.2025.3537038"
   },
   {
     "title": "Can Subsidies Accelerate the Platformization of Vehicle Logistics Industry? Evidence from China",
     "authors": "Zhiyang Chen, Hongwei Jiang, Jiapeng You, Xin Wang, Rob Law, Poly Z.H. Sun.",
     "venue": "IEEE Transactions on Computational Social Systems (IEEE T CSS), 2025.",
     "year": 2025,
-    "href": null
+    "href": "https://doi.org/10.1109/tcss.2025.3529878"
   },
   {
     "title": "RL-based USV Path Planning Under the Marine Multimodal Features Considerations",
     "authors": "Quanbao Lin, Huaxing Gou, Peidong Tian, Tian-Yu Zuo, Hanzhong Zhang, Xin Wang, Poly Z.H. Sun.",
     "venue": "IEEE Internet of Things Journal (IEEE IoT J), 2025.",
     "year": 2025,
-    "href": null
-  },
-  {
-    "title": "ABR-Attention: An Attention-based Model for Precisely Localizing Auditory Brainstem Response",
-    "authors": "Junyu Ji, Xin Wang, Xiaobei Jing, Mingxing Zhu, Hongguang Pan, Desheng Jia, Chunrui Zhao, Xu Yong, Yangjie Xu, Guoru Zhao, Poly Z.H. Sun, Guanglin Li, Shixiong Chen.",
-    "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering (IEEE T NSRE), 2024.",
-    "year": 2024,
-    "href": null
+    "href": "https://doi.org/10.1109/jiot.2025.3530534"
   },
   {
     "title": "CDGNet: A Cross-Time Dynamic Graph-based Deep Learning Model for Vehicle-based Traffic Speed Forecasting",
     "authors": "Yuchen Fang, Haiyong Luo, Fang Zhao, Poly Z.H. Sun, Yanjun Qin, Liang Zeng, Bo Hui, Chenxing Wang.",
     "venue": "IEEE Transactions on Intelligent Vehicles (IEEE T IV), 2025.",
     "year": 2025,
-    "href": null
+    "href": "https://doi.org/10.1109/tiv.2024.3417221"
+  },
+  {
+    "title": "ABR-Attention: An Attention-based Model for Precisely Localizing Auditory Brainstem Response",
+    "authors": "Junyu Ji, Xin Wang, Xiaobei Jing, Mingxing Zhu, Hongguang Pan, Desheng Jia, Chunrui Zhao, Xu Yong, Yangjie Xu, Guoru Zhao, Poly Z.H. Sun, Guanglin Li, Shixiong Chen.",
+    "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering (IEEE T NSRE), 2024.",
+    "year": 2024,
+    "href": "https://doi.org/10.1109/tnsre.2024.3445936"
   },
   {
     "title": "Recognizing Core Knowledge from Domain Knowledge Network for Platform-based Business Development",
     "authors": "Poly Z.H. Sun, Hongwei Jiang, Chengjun Wang, Xinfeng Ru, Xinguo Ming.",
     "venue": "IEEE Transactions on Computational Social Systems (IEEE T CSS), 2024.",
     "year": 2024,
-    "href": null
+    "href": "https://doi.org/10.1109/tcss.2024.3385671"
   },
   {
     "title": "Evolutionary Ensemble Learning for EEG-based Cross-Subject Emotion Recognition",
     "authors": "Hanzhong Zhang, Tienyu Zuo, Zhiyang Chen, Xin Wang, Poly Z.H. Sun.",
     "venue": "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024.",
     "year": 2024,
-    "href": null
+    "href": "https://doi.org/10.1109/jbhi.2024.3384816"
   },
   {
     "title": "Standard Datasets for Autonomous Navigation and Mapping: A Full-Stack Construction Methodology",
     "authors": "Yuanzhi Liu, Yujia Fu, Minghui Qin, Yufeng Xu, Bin Cui, Kunhua Liu, Fengdong Chen, Wei Tao, Michiel Vlaminck, Bart Goossens, Poly Z.H. Sun, Hui Zhao.",
     "venue": "IEEE Transactions on Intelligent Vehicles (IEEE T IV), 2024.",
     "year": 2024,
-    "href": null
+    "href": "https://doi.org/10.1109/tiv.2024.3360273"
   },
   {
     "title": "BotanicGarden: A High-quality Dataset for Robot Navigation in Unstructured Natural Environments",
     "authors": "Yuanzhi Liu, Yujia Fu, Minghui Qin, Yufeng Xu, Baoxin Xu, Fengdong Chen, Bart Goossens, Poly Z.H. Sun, Hongwei Yu, Chun Liu, Long Chen, Wei Tao, and Hui Zhao.",
     "venue": "IEEE Robotics and Automation Letters (RAL), 2024.",
     "year": 2024,
-    "href": null
+    "href": "https://doi.org/10.1109/lra.2024.3359548"
   },
   {
     "title": "RFID Lightweight Authentication Mechanism for Smart Factories Based on Blockchain",
     "authors": "Zhiyang Chen, Hongwei Jiang, Jiapeng You, Xin Wang, Poly Z.H. Sun.",
     "venue": "IEEE Journal of Radio Frequency Identification (JRFID), 2024.",
     "year": 2024,
-    "href": null
+    "href": "https://doi.org/10.1109/jrfid.2024.3356194"
   },
   {
     "title": "Optimal Design of Multi-type Component Allocation System With Shared Positions",
     "authors": "Hongwei Jiang, Siqi Qiu, Jiapeng You, Poly Z.H. Sun, Xinguo Ming.",
     "venue": "Advanced Engineering Informatics (AEI), 2024.",
     "year": 2024,
-    "href": null
+    "href": "https://doi.org/10.1016/j.aei.2023.102257"
   },
   {
     "title": "Dynamic AGV Conflict Detection Under Speed Uncertainty Considerations",
     "authors": "Jiapeng You, Zhiyang Chen, Hongwei Jiang, Poly Z.H. Sun.",
     "venue": "IEEE Transactions on Intelligent Vehicles (IEEE T IV), 2024.",
     "year": 2024,
-    "href": null
-  },
-  {
-    "title": "Advance Scheduling for Chronic Care Under Online or Offline Revisit Uncertainty",
-    "authors": "Xiaoxiao Shen, Shi-Chang Du, Yan-Ning Sun, Poly Z.H. Sun, Rob Law, Edmond Q Wu.",
-    "venue": "IEEE Transactions on Automation Science and Engineering (IEEE T-ASE), Early Access, 2023.",
-    "year": 2023,
-    "href": null
-  },
-  {
-    "title": "High-Quality Auditory Brainstem Response Acquisition in Motion Via Adaptive Kalman Filtering",
-    "authors": "Xin Wang, Haoshi Zhang, Jingqian Tan, Yangjie Xu, Poly Z.H. Sun, Junyu Ji, Jiafa Lu, Mingxing Zhu, Michael Chi Fai Tong, Subhas Chandra Mukhopadhyay, Guanglin Li, Shixiong Chen.",
-    "venue": "IEEE Transactions on Cognitive and Developmental Systems (IEEE T CDS), Early Access, 2023.",
-    "year": 2023,
-    "href": null
-  },
-  {
-    "title": "Auction Mechanism-based Order Allocation for Third-party Vehicle Logistics Platforms",
-    "authors": "Zhiyang Chen, Jiapeng You, Hongwei Jiang, Xinguo Ming, Poly Z.H. Sun.",
-    "venue": "Advanced Engineering Informatics (AEI), 2023.",
-    "year": 2023,
-    "href": null
-  },
-  {
-    "title": "Left Gaze Bias between LHT and RHT: A Recommendation Strategy to Mitigate Human Errors in Left-and Right-Hand Driving",
-    "authors": "Jiawei Xu, Kun Guo, Xiaoqin Zhang, Poly Z.H. Sun.",
-    "venue": "IEEE Transactions on Intelligent Vehicles (IEEE T IV), 2023.",
-    "year": 2023,
-    "href": null
-  },
-  {
-    "title": "Order allocation strategy for online car-hailing platform in the context of multi-party interests",
-    "authors": "Jiapeng You, Hongwei Jiang, Zhiyang Chen, Xinguo Ming, Poly Z.H. Sun.",
-    "venue": "Advanced Engineering Informatics (AEI), 2023.",
-    "year": 2023,
-    "href": null
-  },
-  {
-    "title": "Preliminary Exploration for Long-Distance Non-Standardized Delivery",
-    "authors": "Hongwei Jiang, Jiapeng You, Zhiyang Chen, Yida Shi, Siqi Qiu, Xinguo Ming, Poly Z.H. Sun.",
-    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2023.",
-    "year": 2023,
-    "href": null
-  },
-  {
-    "title": "Vessel Monitoring in Emission Control Areas: A Preliminary Exploration of Rental-Based Operations",
-    "authors": "Tian-Yu Zuo, Xiaosong Luo, Weishun Deng, Poly Z.H. Sun, Rob Law, Edmond Q Wu.",
-    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2023.",
-    "year": 2023,
-    "href": null
+    "href": "https://doi.org/10.1109/tiv.2023.3316249"
   },
   {
     "title": "An End-to-End Tag Recognition Architecture for Industrial Meter",
     "authors": "Xiaoyuan Deng, Xiaomin Chen, Dongping Cao, Kun Ren, Poly Z.H. Sun.",
     "venue": "IEEE Transactions on Industrial Informatics (IEEE T II), 2024.",
     "year": 2024,
-    "href": null
+    "href": "https://doi.org/10.1109/tii.2023.3257295"
+  },
+  {
+    "title": "Advance Scheduling for Chronic Care Under Online or Offline Revisit Uncertainty",
+    "authors": "Xiaoxiao Shen, Shi-Chang Du, Yan-Ning Sun, Poly Z.H. Sun, Rob Law, Edmond Q Wu.",
+    "venue": "IEEE Transactions on Automation Science and Engineering (IEEE T-ASE), Early Access, 2023.",
+    "year": 2023,
+    "href": "https://doi.org/10.1109/tase.2023.3310116"
+  },
+  {
+    "title": "High-Quality Auditory Brainstem Response Acquisition in Motion Via Adaptive Kalman Filtering",
+    "authors": "Xin Wang, Haoshi Zhang, Jingqian Tan, Yangjie Xu, Poly Z.H. Sun, Junyu Ji, Jiafa Lu, Mingxing Zhu, Michael Chi Fai Tong, Subhas Chandra Mukhopadhyay, Guanglin Li, Shixiong Chen.",
+    "venue": "IEEE Transactions on Cognitive and Developmental Systems (IEEE T CDS), Early Access, 2023.",
+    "year": 2023,
+    "href": "https://doi.org/10.1109/tcds.2023.3308561"
+  },
+  {
+    "title": "Auction Mechanism-based Order Allocation for Third-party Vehicle Logistics Platforms",
+    "authors": "Zhiyang Chen, Jiapeng You, Hongwei Jiang, Xinguo Ming, Poly Z.H. Sun.",
+    "venue": "Advanced Engineering Informatics (AEI), 2023.",
+    "year": 2023,
+    "href": "https://doi.org/10.1016/j.aei.2023.102116"
+  },
+  {
+    "title": "Left Gaze Bias between LHT and RHT: A Recommendation Strategy to Mitigate Human Errors in Left-and Right-Hand Driving",
+    "authors": "Jiawei Xu, Kun Guo, Xiaoqin Zhang, Poly Z.H. Sun.",
+    "venue": "IEEE Transactions on Intelligent Vehicles (IEEE T IV), 2023.",
+    "year": 2023,
+    "href": "https://doi.org/10.1109/tiv.2023.3298481"
+  },
+  {
+    "title": "Order allocation strategy for online car-hailing platform in the context of multi-party interests",
+    "authors": "Jiapeng You, Hongwei Jiang, Zhiyang Chen, Xinguo Ming, Poly Z.H. Sun.",
+    "venue": "Advanced Engineering Informatics (AEI), 2023.",
+    "year": 2023,
+    "href": "https://doi.org/10.1016/j.aei.2023.102110"
+  },
+  {
+    "title": "Preliminary Exploration for Long-Distance Non-Standardized Delivery",
+    "authors": "Hongwei Jiang, Jiapeng You, Zhiyang Chen, Yida Shi, Siqi Qiu, Xinguo Ming, Poly Z.H. Sun.",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2023.",
+    "year": 2023,
+    "href": "https://doi.org/10.1109/tits.2023.3299618"
+  },
+  {
+    "title": "Vessel Monitoring in Emission Control Areas: A Preliminary Exploration of Rental-Based Operations",
+    "authors": "Tian-Yu Zuo, Xiaosong Luo, Weishun Deng, Poly Z.H. Sun, Rob Law, Edmond Q Wu.",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2023.",
+    "year": 2023,
+    "href": "https://doi.org/10.1109/tits.2023.3279391"
   },
   {
     "title": "Neural Network Ensemble with Evolutionary Algorithm for Highly Imbalanced Classification",
     "authors": "Poly Z.H. Sun, Tian-Yu Zuo, Rob Law, Edmond Q. Wu, Aiguo Song.",
     "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence (IEEE T ETCI), 2023.",
     "year": 2023,
-    "href": null
+    "href": "https://doi.org/10.1109/tetci.2023.3251400"
   },
   {
     "title": "Bio-inspired Vision Mimetics Toward Next-generation Collision-Avoidance Automation",
     "authors": "Gary J.W. Xu, Kun Guo, Seop Hyeong Park, Poly Z.H. Sun, Aiguo Song.",
     "venue": "The Innovation, 2023.",
     "year": 2023,
-    "href": null
-  },
-  {
-    "title": "Human-Factors-in-Driving-Loop: Driver Identification and Verification via a Deep Learning Approach using Psychological Behavioral Data",
-    "authors": "Jiawei Xu, Sicheng Pan, Poly Z.H. Sun, Seop Hyeong Park, Kun Guo.",
-    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
-    "year": 2022,
-    "href": null
-  },
-  {
-    "title": "AGV-based Vehicle Transportation in Automated Container Terminals: A Survey",
-    "authors": "Poly Z.H. Sun, Jiapeng You, Siqi Qiu, Edmond Q. Wu, Pengwen Xiong, Aiguo Song, Hanzhong Zhang, Tong Lu.",
-    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
-    "year": 2022,
-    "href": null
-  },
-  {
-    "title": "Driving Performance Under Violations of Traffic Rules: Novice vs. Experienced Drivers",
-    "authors": "Jiawei Xu, Kun Guo, Poly Z.H. Sun.",
-    "venue": "IEEE Transactions on Intelligent Vehicles (IEEE T IV), 2022.",
-    "year": 2022,
-    "href": null
-  },
-  {
-    "title": "Normal Assisted Pixel-Visibility Learning With Cost Aggregation for Multiview Stereo",
-    "authors": "Wei Tong, Xiaorong Guan, Jian Kang, Poly Z.H. Sun, Rob Law, Pedram Ghamisi, Edmond Q. Wu.",
-    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
-    "year": 2022,
-    "href": null
-  },
-  {
-    "title": "Emission Monitoring Dispatching of Drones Under Vessel Speed Fluctuation",
-    "authors": "Poly Z.H. Sun, Xiaosong Luo, Tienyu Zuo, Yuguang Bao, Yan-Ning Sun, Rob Law, Edmond Q. Wu.",
-    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
-    "year": 2022,
-    "href": null
-  },
-  {
-    "title": "Inferring Cognitive State of Pilot’s Brain under Different Maneuvers During Flight",
-    "authors": "Edmond Q. Wu, Zhengtao Cao, Poly Z.H. Sun, Dongfang Li, Rob Law, Xin Xu, Li-Min Zhu, Mengsun Yu.",
-    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
-    "year": 2022,
-    "href": null
+    "href": "https://doi.org/10.1016/j.xinn.2022.100368"
   },
   {
     "title": "Knowledge-driven Industrial Intelligent System: Concept, Reference Model, and Application Direction",
     "authors": "Poly Z.H. Sun, Yuguang Bao, Xinguo Ming, Tongtong Zhou.",
     "venue": "IEEE Transactions on Computational Social Systems (IEEE T CSS), 2023.",
     "year": 2023,
-    "href": null
+    "href": "https://doi.org/10.1109/tcss.2022.3188295"
   },
   {
     "title": "A Causal Model-Inspired Automatic Feature-Selection Method for Developing Data-Driven Soft Sensors in Complex Industrial Processes",
     "authors": "Yan-Ning Sun, Wei Qin, Jin-Hua Hu, Hong-Wei Xu, Poly Z.H. Sun.",
     "venue": "Engineering, 2023.",
     "year": 2023,
-    "href": null
+    "href": "https://doi.org/10.1016/j.eng.2022.06.019"
+  },
+  {
+    "title": "Human-Factors-in-Driving-Loop: Driver Identification and Verification via a Deep Learning Approach using Psychological Behavioral Data",
+    "authors": "Jiawei Xu, Sicheng Pan, Poly Z.H. Sun, Seop Hyeong Park, Kun Guo.",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
+    "year": 2022,
+    "href": "https://doi.org/10.1109/tits.2022.3225782"
+  },
+  {
+    "title": "AGV-based Vehicle Transportation in Automated Container Terminals: A Survey",
+    "authors": "Poly Z.H. Sun, Jiapeng You, Siqi Qiu, Edmond Q. Wu, Pengwen Xiong, Aiguo Song, Hanzhong Zhang, Tong Lu.",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
+    "year": 2022,
+    "href": "https://doi.org/10.1109/tits.2022.3215776"
+  },
+  {
+    "title": "Driving Performance Under Violations of Traffic Rules: Novice vs. Experienced Drivers",
+    "authors": "Jiawei Xu, Kun Guo, Poly Z.H. Sun.",
+    "venue": "IEEE Transactions on Intelligent Vehicles (IEEE T IV), 2022.",
+    "year": 2022,
+    "href": "https://doi.org/10.1109/tiv.2022.3200592"
+  },
+  {
+    "title": "Normal Assisted Pixel-Visibility Learning With Cost Aggregation for Multiview Stereo",
+    "authors": "Wei Tong, Xiaorong Guan, Jian Kang, Poly Z.H. Sun, Rob Law, Pedram Ghamisi, Edmond Q. Wu.",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
+    "year": 2022,
+    "href": "https://doi.org/10.1109/tits.2022.3193421"
+  },
+  {
+    "title": "Emission Monitoring Dispatching of Drones Under Vessel Speed Fluctuation",
+    "authors": "Poly Z.H. Sun, Xiaosong Luo, Tienyu Zuo, Yuguang Bao, Yan-Ning Sun, Rob Law, Edmond Q. Wu.",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
+    "year": 2022,
+    "href": "https://doi.org/10.1109/tits.2022.3189979"
+  },
+  {
+    "title": "Inferring Cognitive State of Pilot’s Brain under Different Maneuvers During Flight",
+    "authors": "Edmond Q. Wu, Zhengtao Cao, Poly Z.H. Sun, Dongfang Li, Rob Law, Xin Xu, Li-Min Zhu, Mengsun Yu.",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2022.",
+    "year": 2022,
+    "href": "https://doi.org/10.1109/tits.2022.3189981"
   },
   {
     "title": "Multistage Pixel-Visibility Learning With Cost Regularization for Multiview Stereo",
     "authors": "Xiaorong Guan, Wei Tong, Shan Jiang, Poly Z.H. Sun, Edmond Q. Wu, Guimin Chen.",
     "venue": "IEEE Transactions on Automation Science and Engineering (IEEE T-ASE), 2022.",
     "year": 2022,
-    "href": null
+    "href": "https://doi.org/10.1109/tase.2022.3165944"
   },
   {
     "title": "Adaptive Cost Volume Representation for Unsupervised High-resolution Stereo Matching",
     "authors": "Kevin W. Tong, Poly Z.H. Sun, Edmond Q. Wu, Changxu Wu, Zhibin Jiang.",
     "venue": "IEEE Transactions on Intelligent Vehicles (IEEE T IV), 2022.",
     "year": 2022,
-    "href": null
+    "href": "https://doi.org/10.1109/tiv.2022.3155469"
   },
   {
     "title": "Multi-Expert Learning for Fusion of Pedestrian Detection Bounding Box",
     "authors": "Zhi-Ri Tang, Ruihan Hu, Yanhua Chen, Zhao-Hui Sun, Ming Li.",
     "venue": "Knowledge-Based Systems (KBS), 2022.",
     "year": 2022,
-    "href": null
+    "href": "https://doi.org/10.1016/j.knosys.2022.108254"
   },
   {
     "title": "Semi-supervised 3D Medical Image Segmentation Based on Dual-task Consistent joint Learning and Task-Level Regularization",
     "authors": "Qi-Qi Chen, Zhao-Hui Sun, Chuan-Feng Wei, Edmond Q. Wu, Dong Ming.",
     "venue": "IEEE/ACM Transactions on Computational Biology and Bioinformatics (IEEE/ACM T CBB), 2022.",
     "year": 2022,
-    "href": null
-  },
-  {
-    "title": "Few-Sample Generation of Amount in Figures for Financial Multi-bill Scene Based on GAN",
-    "authors": "Zhi-Ri Tang, Qi-Qi Chen, Zhao-Hui Sun, Pengwen Xiong, Bao-Hua Zhang, Lu Jiang, Edmond Q. Wu.",
-    "venue": "IEEE Transactions on Computational Social Systems (IEEE T CSS), 2021.",
-    "year": 2021,
-    "href": null
-  },
-  {
-    "title": "MRCG: A MRI Retrieval System with Convolutional and Graph Neural Networks for Secure and Private IoMT",
-    "authors": "Zhi-Ri Tang, Zhao-Hui Sun, Edmond Q. Wu, Chuan-Feng Wei, Dong Ming, Sheng-Di Chen.",
-    "venue": "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2021.",
-    "year": 2021,
-    "href": null
+    "href": "https://doi.org/10.1109/tcbb.2022.3144428"
   },
   {
     "title": "Potential Requirements and Opportunities of Blockchain-based Industrial IoT in Supply Chain: A Survey",
     "authors": "Zhao-Hui Sun, Zhiyang Chen, Sijia Cao, Xinguo Ming.",
     "venue": "IEEE Transactions on Computational Social Systems (IEEE T CSS), 2022.",
     "year": 2022,
-    "href": null
+    "href": "https://doi.org/10.1109/tcss.2021.3129259"
   },
   {
     "title": "Network-based Dynamic Dispatching Rule Generation Mechanism for Real-time Production Scheduling Problems With Dynamic Job Arrivals",
     "authors": "Zilong Zhuang, Yue Li, Yanning Sun, Wei Qin, Zhao-Hui Sun.",
-    "venue": "In: Robotics and Computer-Integrated Manufacturing (RCIM), 2022.",
+    "venue": "Robotics and Computer-Integrated Manufacturing (RCIM), 2022.",
     "year": 2022,
-    "href": null
+    "href": "https://doi.org/10.1016/j.rcim.2021.102261"
+  },
+  {
+    "title": "Few-Sample Generation of Amount in Figures for Financial Multi-bill Scene Based on GAN",
+    "authors": "Zhi-Ri Tang, Qi-Qi Chen, Zhao-Hui Sun, Pengwen Xiong, Bao-Hua Zhang, Lu Jiang, Edmond Q. Wu.",
+    "venue": "IEEE Transactions on Computational Social Systems (IEEE T CSS), 2021.",
+    "year": 2021,
+    "href": "https://doi.org/10.1109/tcss.2021.3136602"
+  },
+  {
+    "title": "MRCG: A MRI Retrieval System with Convolutional and Graph Neural Networks for Secure and Private IoMT",
+    "authors": "Zhi-Ri Tang, Zhao-Hui Sun, Edmond Q. Wu, Chuan-Feng Wei, Dong Ming, Sheng-Di Chen.",
+    "venue": "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2021.",
+    "year": 2021,
+    "href": "https://doi.org/10.1109/jbhi.2021.3130028"
   },
   {
     "title": "Monitoring scheduling of drones for emission control areas: An ant colony-based approach",
     "authors": "Zhao-Hui Sun, Xiaosong Luo, Edmond Q. Wu, Tian-Yu Zuo, Zhi-Ri Tang, Zilong Zhuang.",
     "venue": "IEEE Transactions on Intelligent Transportation Systems (IEEE T ITS), 2021.",
     "year": 2021,
-    "href": null
-  },
-  {
-    "title": "Smart Product Service Requirements Identification and Evaluation: A Hybrid Method",
-    "authors": "Ziding Meng, Zhihua Chen, Zhao-Hui Sun, Xinguo Ming.",
-    "venue": "IEEE 28th International Conference on Industrial Engineering and Engineering Management (IEEE IEEM 2021), 2021.",
-    "year": 2021,
-    "href": null
-  },
-  {
-    "title": "Time Window Based Genetic Algorithm for Multi-AGVs Conflict-free Path Planning in Automated Container Terminals",
-    "authors": "Tong Lu, Zhao-Hui Sun, Siqi Qiu, Xinguo Ming.",
-    "venue": "IEEE 28th International Conference on Industrial Engineering and Engineering Management (IEEE IEEM 2021), 2021.",
-    "year": 2021,
-    "href": null
+    "href": "https://doi.org/10.1109/tits.2021.3106305"
   },
   {
     "title": "GPHC: A Heuristic Clustering Method to Customer Segmentation",
     "authors": "Zhao-Hui Sun, Tian-Yu Zuo, Di Liang, Xinguo Ming, Zhihua Chen, Siqi Qiu.",
     "venue": "Applied Soft Computing (ASOC), 2021.",
     "year": 2021,
-    "href": null
+    "href": "https://doi.org/10.1016/j.asoc.2021.107677"
   },
   {
     "title": "Multicriteria Decision-Making Framework for Supplier Selection: A Customer Community-Driven Approach",
     "authors": "Zhao-Hui Sun, Xinguo Ming.",
     "venue": "IEEE Transactions on Engineering Management (IEEE TEM), 2021.",
     "year": 2021,
-    "href": null
-  },
-  {
-    "title": "Ant Colony System Based Drone Scheduling for Ship Emission Monitoring",
-    "authors": "Xiaosong Luo, Zhao-Hui Sun, Siqi Qiu.",
-    "venue": "In: Proceedings of 2021 IEEE Congress on Evolutionary Computation (IEEE-CEC 2021).",
-    "year": 2021,
-    "href": null
+    "href": "https://doi.org/10.1109/tem.2021.3089279"
   },
   {
     "title": "Multi-task Processing Oriented Production Layout Based on Evolutionary Programming Mechanism",
     "authors": "Zhao-Hui Sun, Di Liang, Zilong Zhuang, Liang Chen, Xinguo Ming.",
     "venue": "Applied Soft Computing (ASOC), 2021.",
     "year": 2021,
-    "href": null
+    "href": "https://doi.org/10.1016/j.asoc.2020.106896"
   },
   {
     "title": "DyS-IENN: A Novel Multiclass Imbalanced Learning Method for Early Warning of Tardiness in Rocket Final Assembly Process",
     "authors": "Zilong Zhuang, Wei Qin, Liangxun Guo, Zizhao Huang, Yanning Sun, Zhao-Hui Sun.",
     "venue": "Journal of Intelligent Manufacturing (JIM), 2020.",
     "year": 2020,
-    "href": null
-  },
-  {
-    "title": "Multi-Model Fusion Based on Stacking: A Predictive Model for the Price Trend of Natural Rubber",
-    "authors": "Hongbo Fan, Xiaosong Luo, Zhao-Hui Sun, Xin Yuan, Siqi Qiu.",
-    "venue": "In: Proceedings of 2020 IEEE 16th International Conference on Automation Science and Engineering (IEEE-CASE 2020), 2020.",
-    "year": 2020,
-    "href": null
-  },
-  {
-    "title": "Rolling Bearing Fault Diagnosis under Variable Working Conditions Based on Joint Distribution Adaptation and SVM",
-    "authors": "Ming Li, Zhao-Hui Sun, Weihui He, Siqi Qiu, Bo Liu.",
-    "venue": "In: Proceedings of 2020 The International Joint Conference on Neural Networks (IJCNN 2020), 2020.",
-    "year": 2020,
-    "href": null
-  },
-  {
-    "title": "A Hybrid Framework Integrating Rough-Fuzzy Best-Worst Method to Identify and Evaluate User Activity-oriented Service Requirement for Smart Product Service System",
-    "authors": "Zhihua Chen, Xinguo Ming, Tongtong Zhou, Yuan Chang, Zhao-Hui Sun.",
-    "venue": "Journal of Cleaner Production (JCLP), 2020.",
-    "year": 2020,
-    "href": null
-  },
-  {
-    "title": "Online PHM System for Bearings Based on Time-frequency Analysis and CNN Transfer Learning",
-    "authors": "Weihui He, Hongbo Fan, Zhao-Hui Sun, Xin Yuan, Siqi Qiu.",
-    "venue": "In: Proceedings of the 49th international conference on computers & industrial engineering (CIE'49), 2019.",
-    "year": 2019,
-    "href": null
-  },
-  {
-    "title": "A Rough-Fuzzy DEMATEL-ANP Method for Evaluating Sustainable Value Requirement of Product Service System",
-    "authors": "Zhihua Chen, Xinguo Ming, Xianyu Zhang, Dao Yin, Zhao-Hui Sun.",
-    "venue": "Journal of Cleaner Production (JCLP), 2019.",
-    "year": 2019,
-    "href": null
-  },
-  {
-    "title": "A Fault Diagnosis and Maintenance Decision System for Production Line Based on Human-machine Multi-Information Fusion",
-    "authors": "Zhao-Hui Sun, Renjun Liu, Xinguo Ming.",
-    "venue": "In: Proceedings of the 1st Artificial Intelligence and Cloud Computing Conference (AICCC'18), 2018.",
-    "year": 2018,
-    "href": null
+    "href": "https://doi.org/10.1007/s10845-020-01631-9"
   }
 ]
