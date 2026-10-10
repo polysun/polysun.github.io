@@ -162,6 +162,8 @@ img { display: block; max-width: 100%; }
 .lab-mark i { background: var(--white); }
 .lab-mark i:nth-child(2), .lab-mark i:nth-child(5) { background: var(--red); }
 .lab-mark i:nth-child(3) { grid-row: span 2; }
+.site-footer .lab-link { background: var(--paper); padding: 10px 14px; width: max-content; }
+.lab-link .pis-logo-lockup { display: block; width: 150px; height: auto; object-fit: contain; }
 
 .reveal { opacity: .72; transform: translateY(12px); transition: opacity .4s ease, transform .48s cubic-bezier(.16,1,.3,1); }
 .reveal.is-visible { opacity: 1; transform: none; }
