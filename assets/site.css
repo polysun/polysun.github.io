@@ -239,3 +239,19 @@ img { display: block; max-width: 100%; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+/* Optional admissions detail keeps the landing page focused on the lab/person. */
+.graduate-admissions { grid-column: 1 / -1; min-width: 0; margin-top: 2rem; border-top: 1px solid currentColor; border-bottom: 1px solid currentColor; }
+.graduate-admissions summary { cursor: pointer; padding: 1.2rem 0; font-size: 1.1rem; font-weight: 700; line-height: 1.5; }
+.graduate-admissions summary:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.graduate-admissions .admissions-schools { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem; padding: 1rem 0; }
+.graduate-admissions h3 { margin: 0 0 .5rem; font-size: 1.25rem; line-height: 1.5; letter-spacing: normal; text-transform: none; }
+.graduate-admissions .admissions-campus { margin: 0 0 1rem; font-size: 1rem; line-height: 1.6; }
+.graduate-admissions ul { list-style: none; padding: 0; margin: 0; }
+.graduate-admissions li { margin: 0; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,.3); font-size: 1rem; line-height: 1.7; overflow-wrap: anywhere; }
+.graduate-admissions li:last-child { border-bottom: 0; }
+.graduate-admissions li strong, .graduate-admissions li span { display: block; }
+.graduate-admissions .admissions-more { margin: 0 0 1.5rem; font-size: 1rem; line-height: 1.6; }
+.graduate-admissions .admissions-more a { text-decoration: underline; text-underline-offset: .2em; }
+@media (max-width: 760px) {
+  .graduate-admissions .admissions-schools { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+}
