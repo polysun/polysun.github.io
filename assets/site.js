@@ -127,7 +127,7 @@ function publicationCategory(publication) {
   const text = `${publication.title} ${publication.venue}`.toLowerCase();
   if (/tangible informatics/.test(text)) return 'interaction';
   if (/eeg|brain|cognit|emotion|mental|medical|physiolog|gaze|auditory|ergonomic/.test(text)) return 'human';
-  if (/vehicle|driv|traffic|transport|trajectory|drone|vessel|agv|navigation|mapping|logistics/.test(text)) return 'mobility';
+  if (/vehicle|driv|traffic|transport|trajectory|drone|vessel|agv|navigation|mapping|logistics|mobility|ride-sourcing/.test(text)) return 'mobility';
   if (/interaction|human.machine|service|requirement|collaborat|platform|product service|human.centered/.test(text)) return 'interaction';
   return 'systems';
 }
@@ -175,7 +175,7 @@ showMore?.addEventListener('click', () => {
   renderPublications();
 });
 
-fetch('content/publications.json?v=20261024')
+fetch('content/publications.json?v=20261115')
   .then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
