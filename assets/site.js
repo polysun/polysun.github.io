@@ -175,7 +175,7 @@ showMore?.addEventListener('click', () => {
   renderPublications();
 });
 
-fetch('content/publications.json?v=20261115')
+fetch('content/publications.json?v=20261127')
   .then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
